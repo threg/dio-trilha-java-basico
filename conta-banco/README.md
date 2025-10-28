@@ -27,21 +27,22 @@ Para executar este projeto localmente, você precisará de:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    git clone [https://github.com/threg/dio-trilha-java-basico.git](https://github.com/threg/dio-trilha-java-basico.git)
     ```
 
 2.  **Navegue até o diretório do projeto:**
     ```bash
-    cd seu-repositorio
+    cd dio-trilha-java-basico
     ```
 
 3.  **Compile os arquivos Java:**
-    (Se estiver usando uma IDE, ela geralmente compila automaticamente. Via terminal, localize o diretório `src`):
+    (Ajuste o caminho `src/ContaTerminal.java` conforme a estrutura do seu projeto. Se ele estiver dentro de um pacote, por exemplo `src/com/exemplo/ContaTerminal.java`, o comando mudará).
     ```bash
-    javac src/ContaTerminal.java
+    javac src/ContaTerminal.java 
     ```
 
 4.  **Execute o programa:**
+    (Ajuste o nome da classe principal se necessário).
     ```bash
     java src.ContaTerminal
     ```
