@@ -1,18 +1,58 @@
-## Getting Started
+# Projeto: Conta Bancária via Terminal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é a implementação de um desafio do bootcamp da [Digital Innovation One (DIO)](https://www.dio.me/), focado em praticar os fundamentos da linguagem Java e Programação Orientada a Objetos (POO).
 
-## Folder Structure
+## 📝 Descrição
 
-The workspace contains two folders by default, where:
+O objetivo foi criar um programa em Java que simula as operações básicas de uma conta bancária, interagindo com o usuário diretamente através do terminal/console. O usuário pode inserir dados como número da agência, número da conta, nome do cliente e saldo inicial para criar uma conta.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+**Funcionalidades Implementadas:**
+* Recebimento de dados do usuário via terminal (utilizando a classe `Scanner`).
+* Criação de um objeto `ContaTerminal`.
+* Exibição de uma mensagem final com os dados da conta criada.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🚀 Tecnologias Utilizadas
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* **Java**: Linguagem principal do projeto.
+* **IDE**: (Mencione a IDE que você usou, ex: Eclipse, IntelliJ ou VS Code).
 
-## Dependency Management
+## 📋 Pré-requisitos
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Para executar este projeto localmente, você precisará de:
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/) (versão 8 ou superior).
+* Uma IDE de sua preferência (VS Code, Eclipse, IntelliJ, etc.) ou um compilador Java via linha de comando.
+* Conhecimentos básicos de Lógica de Programação e POO.
+
+## 🏃 Como Executar o Projeto
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+    ```
+
+2.  **Navegue até o diretório do projeto:**
+    ```bash
+    cd seu-repositorio
+    ```
+
+3.  **Compile os arquivos Java:**
+    (Se estiver usando uma IDE, ela geralmente compila automaticamente. Via terminal, localize o diretório `src`):
+    ```bash
+    javac src/ContaTerminal.java
+    ```
+
+4.  **Execute o programa:**
+    ```bash
+    java src.ContaTerminal
+    ```
+
+5.  **Siga as instruções no terminal:**
+    O programa solicitará que você digite a agência, o número da conta, o nome do cliente e o saldo.
+
+## 🎓 Sobre o Desafio (DIO)
+
+Este projeto foi desenvolvido como parte do desafio "Simulando Uma Conta Bancária Através Do Terminal/Console". O objetivo era aplicar os conhecimentos adquiridos sobre:
+* Sintaxe básica do Java.
+* Uso de classes e objetos (POO).
+* Entrada e saída de dados via console.
+* Estrutura de pacotes e visibilidade de recursos.
