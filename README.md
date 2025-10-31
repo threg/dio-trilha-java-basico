@@ -8,7 +8,7 @@ O objetivo principal é documentar meu progresso e aplicar os conceitos fundamen
 
 ## 🚀 Tecnologias Abordadas
 
-* **Java (JDK 8+):** Linguagem principal utilizada em todos os projetos.
+* **Java (JDK 8+ | Utilizada JDK 21):** Linguagem principal utilizada em todos os projetos.
 * **Programação Orientada a Objetos (POO):** Aplicação de conceitos como Classes, Objetos, Métodos e Atributos.
 * **Controle de Fluxo:** Uso de estruturas condicionais (`if`, `else`, `switch`) e de repetição (`for`, `while`, `do-while`).
 * **Manipulação de Arrays:** Armazenamento e iteração de listas de dados.
