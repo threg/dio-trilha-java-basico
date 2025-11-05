@@ -57,5 +57,3 @@ Para executar este projeto localmente, você precisará de:
 
 5.  **Siga as instruções no terminal:**
     O programa solicitará que você digite o primeiro e o segundo número.
-
-### Exemplo de Execução (Sucesso)
