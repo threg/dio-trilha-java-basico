@@ -9,12 +9,13 @@ O objetivo principal é documentar meu progresso e aplicar os conceitos fundamen
 ## 🚀 Tecnologias Abordadas
 
 * **Java (JDK 8+ | Utilizada JDK 21):** Linguagem principal utilizada em todos os projetos.
-* **Programação Orientada a Objetos (POO):** Aplicação de conceitos como Classes, Objetos, Métodos e Atributos.
+* **Programação Orientada a Objetos (POO):** Aplicação de conceitos como Classes, Objetos, Métodos, Atributos e Interfaces.
 * **Controle de Fluxo:** Uso de estruturas condicionais (`if`, `else`, `switch`) e de repetição (`for`, `while`, `do-while`).
 * **Tratamento de Exceções:** Uso de `try-catch`, `throw` e criação de exceções customizadas.
 * **Manipulação de Arrays:** Armazenamento e iteração de listas de dados.
 * **Entrada e Saída de Dados (I/O):** Interação com o usuário via console utilizando a classe `Scanner`.
 * **Git & GitHub:** Versionamento de código e gerenciamento do repositório.
+* **UML:** Modelagem de diagramas de classes.
 
 ---
 
@@ -37,7 +38,10 @@ Aqui estão os desafios concluídos, cada um contido em seu próprio diretório 
 * **Descrição:** Um programa que recebe dois números inteiros via terminal. O sistema valida se o segundo número é maior que o primeiro e, em caso afirmativo, imprime uma contagem no console. Caso contrário, lança uma exceção customizada.
 * **Conceitos Praticados:** Controle de fluxo (if/else, for), tratamento de exceções (try-catch, throw), exceções customizadas e uso da classe `Scanner`.
 
-*(Novos projetos serão adicionados aqui conforme a conclusão no bootcamp.)*
+### 4. [Modelagem e Diagramação de um Componente iPhone](./desafio-poo-iphone/)
+
+* **Descrição:** Desafio focado na Orientação a Objetos, onde foi necessário modelar e implementar um componente iPhone (baseado no lançamento de 2007) que deve assumir três papéis: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
+* **Conceitos Praticados:** Programação Orientada a Objetos (POO), modelagem UML e, principalmente, a criação e implementação de **Interfaces** em Java para definir contratos de comportamento.
 
 ---
 
@@ -45,17 +49,17 @@ Aqui estão os desafios concluídos, cada um contido em seu próprio diretório 
 
 Cada projeto dentro deste repositório é independente. Para executar qualquer um deles:
 
-1.  Clone o repositório:
-    ```bash
-    git clone [https://github.com/threg/dio-trilha-java-basico.git](https://github.com/threg/dio-trilha-java-basico.git)
-    ```
-2.  Navegue até o diretório do projeto desejado:
-    ```bash
-    cd dio-trilha-java-basico/[NOME-DO-PROJETO]
-    ```
-    *(Ex: `cd dio-trilha-java-basico/desafio-controle-fluxo`)*
+1.  Clone o repositório:
+    ```bash
+    git clone [https://github.com/threg/dio-trilha-java-basico.git](https://github.com/threg/dio-trilha-java-basico.git)
+    ```
+2.  Navegue até o diretório do projeto desejado:
+    ```bash
+    cd dio-trilha-java-basico/[NOME-DO-PROJETO]
+    ```
+    *(Ex: `cd dio-trilha-java-basico/desafio-poo-iphone`)*
 
-3.  Siga as instruções de compilação e execução detalhadas no **`README.md`** específico daquela pasta.
+3.  Siga as instruções de compilação e execução detalhadas no **`README.md`** específico daquela pasta.
 
 ---
 
