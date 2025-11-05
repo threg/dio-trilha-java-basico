@@ -11,6 +11,7 @@ O objetivo principal é documentar meu progresso e aplicar os conceitos fundamen
 * **Java (JDK 8+ | Utilizada JDK 21):** Linguagem principal utilizada em todos os projetos.
 * **Programação Orientada a Objetos (POO):** Aplicação de conceitos como Classes, Objetos, Métodos e Atributos.
 * **Controle de Fluxo:** Uso de estruturas condicionais (`if`, `else`, `switch`) e de repetição (`for`, `while`, `do-while`).
+* **Tratamento de Exceções:** Uso de `try-catch`, `throw` e criação de exceções customizadas.
 * **Manipulação de Arrays:** Armazenamento e iteração de listas de dados.
 * **Entrada e Saída de Dados (I/O):** Interação com o usuário via console utilizando a classe `Scanner`.
 * **Git & GitHub:** Versionamento de código e gerenciamento do repositório.
@@ -31,6 +32,11 @@ Aqui estão os desafios concluídos, cada um contido em seu próprio diretório 
 * **Descrição:** Uma simulação de um processo seletivo fictício. O programa utiliza lógica condicional para analisar pretensões salariais, um loop `while` para selecionar candidatos de uma lista e um loop `do-while` para simular tentativas de contato telefônico.
 * **Conceitos Praticados:** Controle de fluxo (if/else, while, do-while, for), manipulação de arrays e uso de classes `Random` e `ThreadLocalRandom`.
 
+### 3. [Desafio de Controle de Fluxo](./desafio-controle-fluxo/)
+
+* **Descrição:** Um programa que recebe dois números inteiros via terminal. O sistema valida se o segundo número é maior que o primeiro e, em caso afirmativo, imprime uma contagem no console. Caso contrário, lança uma exceção customizada.
+* **Conceitos Praticados:** Controle de fluxo (if/else, for), tratamento de exceções (try-catch, throw), exceções customizadas e uso da classe `Scanner`.
+
 *(Novos projetos serão adicionados aqui conforme a conclusão no bootcamp.)*
 
 ---
@@ -39,15 +45,17 @@ Aqui estão os desafios concluídos, cada um contido em seu próprio diretório 
 
 Cada projeto dentro deste repositório é independente. Para executar qualquer um deles:
 
-1.  Clone o repositório:
-    ```bash
-    git clone [https://github.com/threg/dio-trilha-java-basico.git](https://github.com/threg/dio-trilha-java-basico.git)
-    ```
-2.  Navegue até o diretório do projeto desejado:
-    ```bash
-    cd dio-trilha-java-basico/[NOME-DO-PROJETO]
-    ```
-3.  Siga as instruções de compilação e execução detalhadas no **`README.md`** específico daquela pasta.
+1.  Clone o repositório:
+    ```bash
+    git clone [https://github.com/threg/dio-trilha-java-basico.git](https://github.com/threg/dio-trilha-java-basico.git)
+    ```
+2.  Navegue até o diretório do projeto desejado:
+    ```bash
+    cd dio-trilha-java-basico/[NOME-DO-PROJETO]
+    ```
+    *(Ex: `cd dio-trilha-java-basico/desafio-controle-fluxo`)*
+
+3.  Siga as instruções de compilação e execução detalhadas no **`README.md`** específico daquela pasta.
 
 ---
 
