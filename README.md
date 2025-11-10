@@ -2,13 +2,14 @@
 
 Este repositório é dedicado a armazenar todos os projetos, desafios de código e exercícios desenvolvidos durante o bootcamp **Trilha Java Básico** da **Digital Innovation One (DIO)**.
 
-O objetivo principal é documentar meu progresso e aplicar os conceitos fundamentais da linguagem Java, desde a sintaxe básica até os pilares da Programação Orientada a Objetos (POO).
+O objetivo principal é documentar meu progresso e aplicar os conceitos fundamentais da linguagem Java, desde a sintaxe básica até os pilares da Programação Orientada a Objetos (POO) e frameworks de backend como o Spring Boot.
 
 ---
 
 ## 🚀 Tecnologias Abordadas
 
 * **Java (JDK 8+ | Utilizada JDK 21):** Linguagem principal utilizada em todos os projetos.
+* **Spring Boot (Web, Data JPA):** Criação de APIs RESTful e Mapeamento Objeto-Relacional (ORM).
 * **Programação Orientada a Objetos (POO):** Aplicação de conceitos como Classes, Objetos, Métodos, Atributos e Interfaces.
 * **Padrões de Projeto (Design Patterns):** Implementação de padrões GoF para solução de problemas comuns.
 * **Controle de Fluxo:** Uso de estruturas condicionais (`if`, `else`, `switch`) e de repetição (`for`, `while`, `do-while`).
@@ -17,6 +18,7 @@ O objetivo principal é documentar meu progresso e aplicar os conceitos fundamen
 * **Entrada e Saída de Dados (I/O):** Interação com o usuário via console utilizando a classe `Scanner`.
 * **Git & GitHub:** Versionamento de código e gerenciamento do repositório.
 * **UML:** Modelagem de diagramas de classes.
+* **Maven:** Gerenciamento de dependências.
 
 ---
 
@@ -59,6 +61,11 @@ Aqui estão os desafios concluídos, cada um contido em seu próprio diretório 
 * **Descrição:** Desafio focado em explorar os Padrões de Projeto (Design Patterns). O projeto implementa o padrão Criacional **Singleton**, que garante que uma classe tenha apenas uma única instância global e fornece um ponto de acesso a ela.
 * **Conceitos Praticados:** Design Patterns (Criacional), Singleton, `static`, construtores privados e inicialização "preguiçosa" (lazy initialization).
 
+### 8. [API RESTful com Spring Data JPA](./academia-digital/)
+
+* **Descrição:** Desafio focado em Mapeamento Objeto-Relacional (ORM) com Spring Data JPA. O projeto consiste na criação de uma API RESTful para uma academia de ginástica, com modelagem de entidades (`Aluno`, `Matricula`, `AvaliacaoFisica`) e um banco de dados H2 in-memory.
+* **Conceitos Praticados:** **Spring Boot**, **Spring Web** (REST API), **Spring Data JPA** (ORM, Repositories), Arquitetura em 3 Camadas (Controller, Service, Repository), Padrão DTO (Form/View), `@Entity`, `@OneToOne`, `@ManyToOne`, H2 Database (In-Memory) e **Maven**.
+
 ---
 
 ## 🏃 Como Executar
@@ -73,7 +80,7 @@ Cada projeto dentro deste repositório é independente. Para executar qualquer u
   	```bash
   	cd dio-trilha-java-basico/[NOME-DO-PROJETO]
   	```
-  	*(Ex: `cd dio-trilha-java-basico/desafio-poo-iphone`)*
+  	*(Ex: `cd dio-trilha-java-basico/academia-digital`)*
 
 3.  Siga as instruções de compilação e execução detalhadas no **`README.md`** específico daquela pasta.
 
