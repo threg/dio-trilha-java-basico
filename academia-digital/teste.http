@@ -1,0 +1,37 @@
+### -- Criar um novo aluno (POST).
+POST http://localhost:8080/alunos
+Content-Type: application/json
+
+{
+    "nome": "Talles",
+    "cpf": "123.456.789-00",
+    "bairro": "Centro",
+    "dataDeNascimento": "1990-05-15"
+}
+
+### -----------------
+
+### -- Listar todos os alunos (GET).
+# Clicando em "Send Request" aqui, você busca todos os alunos
+GET http://localhost:8080/alunos
+
+### -- Criar uma nova avaliação física para o Aluno de ID N (POST).
+POST http://localhost:8080/avaliacoes
+Content-Type: application/json
+
+{
+    "alunoId": 1,
+    "peso": 86.5,
+    "altura": 1.79
+}
+
+### -- Matricular o aluno com ID "N" (POST).
+POST http://localhost:8080/matriculas
+Content-Type: application/json
+
+{
+    "alunoId": 1
+}
+
+### -- Buscar dossiê do aluno com ID "N" (GET).
+GET http://localhost:8080/alunos/1
