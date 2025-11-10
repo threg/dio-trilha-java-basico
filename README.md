@@ -10,6 +10,7 @@ O objetivo principal é documentar meu progresso e aplicar os conceitos fundamen
 
 * **Java (JDK 8+ | Utilizada JDK 21):** Linguagem principal utilizada em todos os projetos.
 * **Programação Orientada a Objetos (POO):** Aplicação de conceitos como Classes, Objetos, Métodos, Atributos e Interfaces.
+* **Padrões de Projeto (Design Patterns):** Implementação de padrões GoF para solução de problemas comuns.
 * **Controle de Fluxo:** Uso de estruturas condicionais (`if`, `else`, `switch`) e de repetição (`for`, `while`, `do-while`).
 * **Tratamento de Exceções:** Uso de `try-catch`, `throw` e criação de exceções customizadas.
 * **Manipulação de Arrays:** Armazenamento e iteração de listas de dados.
@@ -52,6 +53,11 @@ Aqui estão os desafios concluídos, cada um contido em seu próprio diretório 
 
 * **Descrição:** Projeto que replica a estrutura básica de um banco digital. Permite a criação de clientes e contas (Corrente e Poupança), além de simular operações bancárias como sacar, depositar, transferir e imprimir extratos.
 * **Conceitos Praticados:** POO (Abstração, Encapsulamento, Herança e Polimorfismo), uso de **Interfaces** (`IConta`) para definir contratos e **Classes Abstratas** (`Conta`) para reutilização de código entre `ContaCorrente` e `ContaPoupanca`.
+
+### 7. [Aplicação de Padrões de Projeto (Singleton)](./desafio-design-patterns/)
+
+* **Descrição:** Desafio focado em explorar os Padrões de Projeto (Design Patterns). O projeto implementa o padrão Criacional **Singleton**, que garante que uma classe tenha apenas uma única instância global e fornece um ponto de acesso a ela.
+* **Conceitos Praticados:** Design Patterns (Criacional), Singleton, `static`, construtores privados e inicialização "preguiçosa" (lazy initialization).
 
 ---
 
