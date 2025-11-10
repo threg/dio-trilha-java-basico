@@ -43,23 +43,33 @@ Aqui estão os desafios concluídos, cada um contido em seu próprio diretório 
 * **Descrição:** Desafio focado na Orientação a Objetos, onde foi necessário modelar e implementar um componente iPhone (baseado no lançamento de 2007) que deve assumir três papéis: Reprodutor Musical, Aparelho Telefônico e Navegador na Internet.
 * **Conceitos Praticados:** Programação Orientada a Objetos (POO), modelagem UML e, principalmente, a criação e implementação de **Interfaces** em Java para definir contratos de comportamento.
 
+### 5. [Desafio Prático de POO - Modelagem de um Bootcamp](./desafio-poo-dio/)
+
+* **Descrição:** Desafio focado em aplicar os quatro pilares da Programação Orientada a Objetos. O projeto modela um Bootcamp, criando classes abstratas (`Conteudo`) e classes concretas (`Curso`, `Mentoria`, `Dev`, `Bootcamp`) para simular a inscrição, progressão e cálculo de XP de um desenvolvedor.
+* **Conceitos Praticados:** **Abstração**, **Encapsulamento**, **Herança** e **Polimorfismo**. Uso de classes abstratas, coleções (`Set`, `LinkedHashSet`) e relacionamentos entre objetos.
+
+### 6. [Banco Digital com Java e POO](./desafio-banco-digital/)
+
+* **Descrição:** Projeto que replica a estrutura básica de um banco digital. Permite a criação de clientes e contas (Corrente e Poupança), além de simular operações bancárias como sacar, depositar, transferir e imprimir extratos.
+* **Conceitos Praticados:** POO (Abstração, Encapsulamento, Herança e Polimorfismo), uso de **Interfaces** (`IConta`) para definir contratos e **Classes Abstratas** (`Conta`) para reutilização de código entre `ContaCorrente` e `ContaPoupanca`.
+
 ---
 
 ## 🏃 Como Executar
 
 Cada projeto dentro deste repositório é independente. Para executar qualquer um deles:
 
-1.  Clone o repositório:
-    ```bash
-    git clone [https://github.com/threg/dio-trilha-java-basico.git](https://github.com/threg/dio-trilha-java-basico.git)
-    ```
-2.  Navegue até o diretório do projeto desejado:
-    ```bash
-    cd dio-trilha-java-basico/[NOME-DO-PROJETO]
-    ```
-    *(Ex: `cd dio-trilha-java-basico/desafio-poo-iphone`)*
+1.  Clone o repositório:
+  	```bash
+  	git clone [https://github.com/threg/dio-trilha-java-basico.git](https://github.com/threg/dio-trilha-java-basico.git)
+  	```
+2.  Navegue até o diretório do projeto desejado:
+  	```bash
+  	cd dio-trilha-java-basico/[NOME-DO-PROJETO]
+  	```
+  	*(Ex: `cd dio-trilha-java-basico/desafio-poo-iphone`)*
 
-3.  Siga as instruções de compilação e execução detalhadas no **`README.md`** específico daquela pasta.
+3.  Siga as instruções de compilação e execução detalhadas no **`README.md`** específico daquela pasta.
 
 ---
 
